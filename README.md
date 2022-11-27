@@ -30,6 +30,5 @@ curl --location --request POST 'http://127.0.0.1:8000/upload-transcribe' \
 ## Get all transcribes
 ```
 curl --location --request GET 'http://127.0.0.1:8000/transcribes' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMiJ9.W1Q3prXnDU8KLC3qw8JBp7bwkTdT3bYAEF7q8ANlEGw' \
---form 'file=@"/Users/eyargilad/projects/fastapi-jwt/deepspeech/audio/8455-210777-0068.wav"'
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMiJ9.W1Q3prXnDU8KLC3qw8JBp7bwkTdT3bYAEF7q8ANlEGw'
 ```
