@@ -12,6 +12,7 @@ pyjwt = "*"
 uvicorn = "*"
 pymongo = "*"
 python-multipart = "*"
+passlib = "*"
 
 [dev-packages]
 
