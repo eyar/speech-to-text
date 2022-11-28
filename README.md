@@ -8,9 +8,15 @@ docker compose up
 ```
 curl --location --request POST 'http://127.0.0.1:8000/register' \
 --header 'Content-Type: application/json' \
---data-raw '{ "username": "testuser" }'
+--data-raw '{ "username": "testuser", "password": "password" }'
 ```
-response: 
+## Login
+```
+curl --location --request GET 'http://127.0.0.1:8000/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{ "username": "testuser", "password": "1234" }'
+```
+Response:
 ```
 {
     "username": "testuser2",
